@@ -37,10 +37,10 @@
         <div>
           <Dialog header="QR-code" v-model:visible="displayQr" :style="{width: '30vw'}">
             <div class="p-text-center">
-              <img class="qr-image" src="../../assets/qr/qr-.png" alt="qr">
+              <img class="qr-image" src="https://ru.qr-code-generator.com/wp-content/themes/qr/new_structure/markets/basic_market/generator/dist/generator/assets/images/websiteQRCode_noFrame.png" alt="qr">
             </div>
           </Dialog>
-          <a href="pdf/testPdf.pdf">
+          <a href="https://www.google.com/search?q=yoba&tbm=isch&ved=2ahUKEwirv775robyAhUzkcMKHb4YAJ4Q2-cCegQIABAA&oq=yoba&gs_lcp=CgNpbWcQAzICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADICCAA6BAgjECc6BQgAELEDOgQIABBDOgcIIxDqAhAnOgcIABCxAxBDOggIABCxAxCDAVC7uwFYt4YCYI6QAmgIcAB4AIABZIgBhwmSAQQxMy4xmAEAoAEBqgELZ3dzLXdpei1pbWewAQrAAQE&sclient=img&ei=Ip4BYaumFbOijga-sYDwCQ&bih=637&biw=1366">
             <Button icon="fas fa-file-pdf" class="p-button-rounded p-button-warning p-button-outlined p-mr-2"/>
           </a>
           <Button @click="openQr" icon="fas fa-qrcode" class="p-button-rounded p-button-warning p-button-outlined"/>

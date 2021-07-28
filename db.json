@@ -2,12 +2,12 @@
   "users": [
     {
       "id": 1,
-      "login": "Timofeev_A",
+      "login": "User1",
       "password": "12345",
       "token": "i9hQgSyqpDG",
-      "firstname": "Артем",
-      "patronymic": "Рудольфович",
-      "lastname": "Тимофеев",
+      "firstname": "Артемий",
+      "patronymic": "Татьянович",
+      "lastname": "Кекс",
       "avatar": "avatar.jpeg"
     },
     {
@@ -226,53 +226,5 @@
     }
   ],
   "appeal": [
-    {
-      "appealTheme": "personal data",
-      "firstName": "Константин",
-      "lastname": "Алексеев",
-      "patronymic": "Патриархович",
-      "DateOfBirth": "2021-07-26T21:00:00.000Z",
-      "passportSeries": "1111",
-      "passportID": "111111",
-      "dateOfIssue": "2021-07-27T21:00:00.000Z",
-      "issuedBy": "asd qaw da sd",
-      "address": "Гражданская улица дом 9 кв 73",
-      "email": "akonstantin228@gmail.com",
-      "phone": "89062247033",
-      "binary": true,
-      "id": 1
-    },
-    {
-      "appealTheme": "personal data",
-      "firstName": "Константин",
-      "lastname": "Алексеев",
-      "patronymic": "Патриархович",
-      "DateOfBirth": "2021-07-25T21:00:00.000Z",
-      "passportSeries": "1111",
-      "passportID": "111111",
-      "dateOfIssue": "2021-07-25T21:00:00.000Z",
-      "issuedBy": " sadf asd fa ds ",
-      "address": "Гражданская улица дом 9 кв 73",
-      "email": "akonstantin228@gmail.com",
-      "phone": "89062247033",
-      "binary": true,
-      "id": 2
-    },
-    {
-      "appealTheme": "personal data",
-      "firstName": "Константин",
-      "lastname": "Алексеев",
-      "patronymic": "Патриархович",
-      "DateOfBirth": "2021-07-25T21:00:00.000Z",
-      "passportSeries": "1111",
-      "passportID": "1111111",
-      "dateOfIssue": "2021-07-16T21:00:00.000Z",
-      "issuedBy": "sadf as asdf32 sda",
-      "address": "Гражданская улица дом 9 кв 73",
-      "email": "akonstantin228@gmail.com",
-      "phone": "89062247033",
-      "binary": true,
-      "id": 3
-    }
   ]
 }
