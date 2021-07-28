@@ -1,0 +1,278 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "login": "Timofeev_A",
+      "password": "12345",
+      "token": "i9hQgSyqpDG",
+      "firstname": "Артем",
+      "patronymic": "Рудольфович",
+      "lastname": "Тимофеев",
+      "avatar": "avatar.jpeg"
+    },
+    {
+      "id": 2,
+      "login": "Ivanov_I",
+      "password": "54321",
+      "token": "i9hQgSyqpDF",
+      "firstname": "Иван",
+      "patronymic": "Иванович",
+      "lastname": "Иванов",
+      "avatar": "avatar.jpeg"
+    }
+  ],
+  "contracts": [
+    {
+      "id": 1,
+      "userToken": "i9hQgSyqpDG",
+      "number": "kvs000001",
+      "documentIcon": "pi pi-globe",
+      "addressIcon": "pi pi-map-marker",
+      "address": "ул. Пушкина, дом 10, квартира 15",
+      "description": "Стоимость услуг за июль составляет 450.00 руб. Оплатите 450.00 руб. до 15 июля, чтобы сохранить доступ к услуге.",
+      "balance": -450,
+      "isActive": true,
+      "expiredAt": "2021.07.15 00:00:00"
+    },
+    {
+      "id": 2,
+      "userToken": "i9hQgSyqpDG",
+      "number": "kvs000002",
+      "documentIcon": "pi pi-globe",
+      "addressIcon": "pi pi-map-marker",
+      "address": "ул. Пушкина, дом 10, квартира 15",
+      "description": "Стоимость услуг за июль составляет 350.00 руб. Оплатите 350.00 руб. до 15 июля, чтобы сохранить доступ к услуге.",
+      "balance": -350,
+      "isActive": true,
+      "expiredAt": "2021.07.16 00:00:00"
+    },
+    {
+      "id": 3,
+      "userToken": "i9hQgSyqpDG",
+      "number": "kvs000003",
+      "documentIcon": "pi pi-globe",
+      "addressIcon": "pi pi-map-marker",
+      "address": "ул. Пушкина, дом 10, квартира 15",
+      "description": "Стоимость услуг за июль составляет 10.00 руб. Оплатите 10.00 руб. до 15 июля, чтобы сохранить доступ к услуге.",
+      "balance": -10,
+      "isActive": false,
+      "expiredAt": "2021.07.10 00:00:00"
+    },
+    {
+      "id": 4,
+      "userToken": "i9hQgSyqpDF",
+      "number": "kvs000004",
+      "documentIcon": "pi pi-globe",
+      "addressIcon": "pi pi-map-marker",
+      "address": "ул. Вокзальная, дом 11, квартира 19",
+      "description": "Стоимость услуг за июль составляет 600.00 руб. Оплатите 600.00 руб. до 15 июля, чтобы сохранить доступ к услуге.",
+      "balance": 600,
+      "isActive": true,
+      "expiredAt": "2021.08.10 00:00:00"
+    },
+    {
+      "id": 5,
+      "userToken": "i9hQgSyqpDF",
+      "number": "kvs000005",
+      "documentIcon": "pi pi-globe",
+      "addressIcon": "pi pi-map-marker",
+      "address": "ул. Гражданская, дом 2, квартира 34",
+      "description": "Стоимость услуг за июль составляет 450.00 руб. Оплатите 450.00 руб. до 15 июля, чтобы сохранить доступ к услуге.",
+      "balance": -450,
+      "isActive": true,
+      "expiredAt": "2021.10.15 00:00:00"
+    }
+  ],
+  "tickets": [
+    {
+      "id": 1,
+      "userToken": "i9hQgSyqpDG",
+      "title": "Интернет",
+      "content": "Не работает интернет целый день",
+      "isActive": true
+    },
+    {
+      "id": 2,
+      "userToken": "i9hQgSyqpDG",
+      "title": "Интернет",
+      "content": "Очень нестабильное соединение",
+      "isActive": true
+    },
+    {
+      "id": 3,
+      "userToken": "i9hQgSyqpDF",
+      "title": "IP-телефония",
+      "content": "Не могу дозвониться до Вашингтона",
+      "isActive": true
+    },
+    {
+      "id": 4,
+      "userToken": "i9hQgSyqpDF",
+      "title": "Кабель",
+      "content": "Кто-то погрыз провода. Искры сыпятся периодически",
+      "isActive": false
+    }
+  ],
+  "offers": [
+    {
+      "id": 1,
+      "userToken": "i9hQgSyqpDG",
+      "title": "Обновите wi-fi роутер",
+      "content": "Мы заметили, что ваш wi-fi роутер не позволяет использовать скорость тарифного плана на максимум",
+      "image": "https://items.s1.citilink.ru/1134482_v01_b.jpg",
+      "color": "blue"
+    },
+    {
+      "id": 2,
+      "userToken": "i9hQgSyqpDG",
+      "title": "Антивирус от Dr.Web",
+      "content": "Подключайте услугу «Антивирус Dr.Web» всего за несколько минут — подписаться проще, чем заразиться!",
+      "image": null,
+      "color": "green"
+    },
+    {
+      "id": 3,
+      "userToken": "i9hQgSyqpDF",
+      "title": "Обновите wi-fi роутер",
+      "content": "Мы заметили, что ваш wi-fi роутер не позволяет использовать скорость тарифного плана на максимум",
+      "image": "https://items.s1.citilink.ru/1134482_v01_b.jpg",
+      "color": "red"
+    }
+  ],
+  "services": [
+    {
+      "id": 1,
+      "userToken": "i9hQgSyqpDG",
+      "title": "Интернет",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "isActive": true
+    },
+    {
+      "id": 2,
+      "userToken": "i9hQgSyqpDG",
+      "title": "Телефония",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "isActive": true
+    },
+    {
+      "id": 3,
+      "userToken": "i9hQgSyqpDG",
+      "title": "Виделнаблюдение",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "isActive": false
+    },
+    {
+      "id": 4,
+      "userToken": "i9hQgSyqpDG",
+      "title": "Вызов мастера",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "isActive": true
+    },
+    {
+      "id": 5,
+      "userToken": "i9hQgSyqpDF",
+      "title": "Интернет",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "isActive": true
+    },
+    {
+      "id": 6,
+      "userToken": "i9hQgSyqpDF",
+      "title": "Телефония",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "isActive": true
+    }
+  ],
+  "notifications": [
+    {
+      "id": 1,
+      "userToken": "i9hQgSyqpDG",
+      "content": "У вас закончились деньги",
+      "isActive": true
+    },
+    {
+      "id": 2,
+      "userToken": "i9hQgSyqpDG",
+      "content": "Закончился срок действия договора",
+      "isActive": true
+    },
+    {
+      "id": 3,
+      "userToken": "i9hQgSyqpDF",
+      "content": "У вас закончились деньги",
+      "isActive": true
+    }
+  ],
+  "widgets": [
+    {
+      "id": 1,
+      "title": "Общий баланс счета",
+      "info": "-990"
+    },
+    {
+      "id": 2,
+      "title": "Подключенных услуг",
+      "info": "4"
+    },
+    {
+      "id": 3,
+      "title": "Новых уведомлений",
+      "info": "14"
+    },
+    {
+      "id": 4,
+      "title": "Открытые обращения",
+      "info": "1"
+    }
+  ],
+  "appeal": [
+    {
+      "appealTheme": "personal data",
+      "firstName": "Константин",
+      "lastname": "Алексеев",
+      "patronymic": "Патриархович",
+      "DateOfBirth": "2021-07-26T21:00:00.000Z",
+      "passportSeries": "1111",
+      "passportID": "111111",
+      "dateOfIssue": "2021-07-27T21:00:00.000Z",
+      "issuedBy": "asd qaw da sd",
+      "address": "Гражданская улица дом 9 кв 73",
+      "email": "akonstantin228@gmail.com",
+      "phone": "89062247033",
+      "binary": true,
+      "id": 1
+    },
+    {
+      "appealTheme": "personal data",
+      "firstName": "Константин",
+      "lastname": "Алексеев",
+      "patronymic": "Патриархович",
+      "DateOfBirth": "2021-07-25T21:00:00.000Z",
+      "passportSeries": "1111",
+      "passportID": "111111",
+      "dateOfIssue": "2021-07-25T21:00:00.000Z",
+      "issuedBy": " sadf asd fa ds ",
+      "address": "Гражданская улица дом 9 кв 73",
+      "email": "akonstantin228@gmail.com",
+      "phone": "89062247033",
+      "binary": true,
+      "id": 2
+    },
+    {
+      "appealTheme": "personal data",
+      "firstName": "Константин",
+      "lastname": "Алексеев",
+      "patronymic": "Патриархович",
+      "DateOfBirth": "2021-07-25T21:00:00.000Z",
+      "passportSeries": "1111",
+      "passportID": "1111111",
+      "dateOfIssue": "2021-07-16T21:00:00.000Z",
+      "issuedBy": "sadf as asdf32 sda",
+      "address": "Гражданская улица дом 9 кв 73",
+      "email": "akonstantin228@gmail.com",
+      "phone": "89062247033",
+      "binary": true,
+      "id": 3
+    }
+  ]
+}
